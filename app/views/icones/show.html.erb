@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @icone %>
+
+<div>
+  <%= link_to "Edit this icone", edit_icone_path(@icone) %> |
+  <%= link_to "Back to icones", icones_path %>
+
+  <%= button_to "Destroy this icone", @icone, method: :delete %>
+</div>
