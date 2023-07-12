@@ -10,7 +10,7 @@ require 'capistrano/rbenv'
 set :rbenv_type, :user
 set :rbenv_ruby, '3.0.3'
 # Load the SCM plugin appropriate to your project:
-install_plugin Capistrano::Puma::Daemon
+
 # require "capistrano/scm/hg"
 # install_plugin Capistrano::SCM::Hg
 # or
