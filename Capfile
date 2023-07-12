@@ -18,7 +18,7 @@ install_plugin Capistrano::Puma::Daemon
 # install_plugin Capistrano::SCM::Svn
 # or
 require "capistrano/scm/git"
-install_plugin Capistrano::Puma::Daemon
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
