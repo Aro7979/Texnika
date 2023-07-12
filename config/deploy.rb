@@ -38,5 +38,5 @@ set :branch, "main"
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :sec
 # append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
-
+before "deploy:assets:precompile", "bundle:install"
 set :keep_releases, 5
